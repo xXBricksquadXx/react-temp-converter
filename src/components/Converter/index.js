@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Input } from "./Input";
-import convert from "./lib";
+import convert from "../../lib";
+import Input from "./Input";
 
 const Converter = () => {
   const [celsius, setCelsius] = useState(0);
