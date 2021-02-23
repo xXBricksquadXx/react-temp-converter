@@ -40,7 +40,7 @@ const Converter = () => {
       />
     ));
 
-  return <main>{renderInputs()}</main>;
+  return <main className="flex justify-center mt-40">{renderInputs()}</main>;
 };
 
 export default Converter;

@@ -9,6 +9,7 @@ const Input = ({ label, id, handler, value }) => {
     <div>
       <label>{label}</label>
       <input
+        className=""
         placeholder={label}
         id={id}
         onChange={handleChange}
