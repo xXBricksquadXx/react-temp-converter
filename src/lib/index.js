@@ -9,7 +9,7 @@ const converters = {
 };
 
 // 'conversion' will either be "toCelsius" OR "toFahrenheit"
-const convert(temperature, conversion) => {
+const convert = (temperature, conversion) => {
   const parsedTemp = parseFloat(temperature);
   if (Number.isNaN(parsedTemp)) {
     return "Not something we can convert! 😞";
@@ -18,6 +18,5 @@ const convert(temperature, conversion) => {
   // INVOKE the 'method' 👆🏾 by passing in 'parsedTemp'
   return Math.round(converters[conversion](parsedTemp) * 1000) / 1000;
 };
-
 
 export default convert;
