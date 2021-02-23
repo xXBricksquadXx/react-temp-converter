@@ -6,10 +6,10 @@ const Input = ({ label, id, handler, value }) => {
     handler(event);
   };
   return (
-    <div>
-      <label>{label}</label>
+    <div className="bg-indigo-400 bg-center border-8 border-indigo-400 rounded-lg  ">
+      <label className="text-indigo-800">{label}</label>
       <input
-        className=""
+        className=" border-2 rounded-lg border-indigo-500"
         placeholder={label}
         id={id}
         onChange={handleChange}
