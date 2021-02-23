@@ -1,5 +1,7 @@
+import { Converter } from "./components";
+
 function App() {
-  return <div></div>;
+  return <Converter />;
 }
 
 export default App;
