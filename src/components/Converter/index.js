@@ -1,5 +1,5 @@
+import convert from "lib";
 import { useState } from "react";
-import convert from "../../lib";
 import Input from "./Input";
 
 const Converter = () => {
